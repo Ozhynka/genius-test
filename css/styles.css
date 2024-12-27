@@ -30,6 +30,7 @@
     src: url('../fonts/poppins-v22-latin-900.woff2') format('woff2');
 }
 
+
 :root {
     --color-brand-light: #819B57;
     --color-brand-dark: #465929;
@@ -41,6 +42,7 @@
 /* BASE */
 body {
     color: var(--color-primary-dark);
+
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -99,6 +101,7 @@ color: var(--color-primary-light);
 background-color: var(--color-brand-light);
 }
 
+
 .advantages-list {    
 font-size: 20px;
 font-weight: 300;
@@ -112,8 +115,15 @@ font-weight: 300;
     line-height: 1.3;
 }
 
+/* SECTION-TITLE */
+.section-title {
+    color: var(--color-primary-dark);
+
+}
+
 .section-title .accent {
     color: var(--color-brand-dark);
+
 }
 
 /* Traditions */
